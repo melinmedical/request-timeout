@@ -1,0 +1,13 @@
+{
+  "name": "request-timeout",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/request-timeout.js",
+  "scripts": {
+    "build": "$(npm bin)/babel ./src/request-timeout.js --out-file ./dist/request-timeout.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
